@@ -1,8 +1,9 @@
 <?php 
+// Set yours MySQL Data Base's infos. 
 
 $ddbhost = 'localhost';
-$ddbuser = 'root';
-$ddbname = 'opensend';
+$ddbuser = '';
+$ddbname = '';
 $ddbpassword = '';
 
 ?>
