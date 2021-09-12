@@ -1,0 +1,59 @@
+body {
+
+	background-color: #36393f;
+}
+#menudiv{
+	background-color: #2f3136;
+	width: 150px;
+	height: 100%;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+
+#Menu{
+	list-style-type: none;
+	display: inline;
+	padding: 0;
+ 	width: 100%;
+}
+.menuli {
+	margin-right: 10px;
+	margin-left: 10px;
+	list-style-type: none;
+	color: #829297;
+	font-family: Futura, Tahoma, sans-serif;
+	padding: 5px;
+	border-radius: 7px 7px;
+	background-color: #2f3136;
+	line-height: 1.5;
+	left: 0px;
+	-webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.menulink {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.5;
+  color: #8e9297;
+  width: 100%;
+  margin-right: 0.625%;
+}
+.menuli:hover {
+	list-style-type: none;
+	color: #ffffff;
+	background-color: #393c43;
+}
+#tableusers {
+	position: absolute;
+	left: 300px;
+}
+#adduserform {
+	position: absolute;
+	left: 300px;
+}
+#deleteuserform {
+	position: absolute;
+	left: 300px;
+}

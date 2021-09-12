@@ -1,0 +1,207 @@
+body {
+
+	background-color: #36393f;
+}
+#menudiv{
+	background-color: #2f3136;
+	width: 150px;
+	height: auto;
+	position:absolute;
+	top: 0;
+	left: 0;
+	border-radius: 0px 0px 15px 0px;
+}
+
+#Menu{
+	list-style-type: none;
+	display: inline;
+	padding: 0;
+ 	width: 100%;
+}
+.menuli {
+	margin-right: 10px;
+	margin-left: 10px;
+	list-style-type: none;
+	color: #829297;
+	font-family: Futura, Tahoma, sans-serif;
+	padding: 5px;
+	border-radius: 7px 7px;
+	background-color: #2f3136;
+	line-height: 1.5;
+	left: 0px;
+	-webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.menulink {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.5;
+  color: #8e9297;
+  width: 100%;
+  margin-right: 0.625%;
+}
+.menuli:hover {
+	list-style-type: none;
+	color: #ffffff;
+	background-color: #393c43;
+}
+
+
+
+
+
+#messageinput {
+
+	width: 80%;
+
+	left: 160px;
+
+	height: 30px;
+
+	position: relative;
+
+
+
+	resize: none;
+
+
+
+}
+
+#channelsdiv{
+	background-color: #2f3136;
+	width: 150px;
+	height: auto;
+	position:absolute;
+	top: 190px;
+	left: 0;
+	border-radius: 0px 15px 15px 0px;
+}
+
+#channels{
+	list-style-type: none;
+	display: inline;
+	padding: 0;
+ 	width: 100%;
+}
+.channelli {
+	margin-right: 10px;
+	margin-left: 10px;
+	list-style-type: none;
+	color: #829297;
+	font-family: Futura, Tahoma, sans-serif;
+	padding: 5px;
+	border-radius: 7px 7px;
+	background-color: #2f3136;
+	line-height: 1.5;
+	left: 0px;
+	-webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.channellink {
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 1.5;
+  color: #8e9297;
+  width: 100%;
+  margin-right: 0.625%;
+}
+.channelli:hover {
+	list-style-type: none;
+	color: #ffffff;
+	background-color: #393c43;
+}
+
+#submit {
+
+	position: relative;
+
+	top: 40px;
+
+
+
+}
+
+.messagediv {
+
+	background-color: #2f3136;
+
+	display: inline-block;
+
+	border-radius: 10px 10px;
+
+	height: auto; 
+
+    margin: auto;
+
+}
+
+.messages {
+
+    position: absolute;
+    max-width: 80%;
+    left: 10px;
+
+}
+
+#messages {
+
+	position: relative;
+
+	top: 10px;
+
+	width: 80%;
+
+	left: 160px;
+
+}
+
+.pseudo {
+
+    color: #f1c41d;
+
+}
+
+.titles {
+	text-align: center;
+	color: white;
+}
+
+#tablemessages {
+
+		position: absolute;
+		left: 300px;
+		top: 10px;
+
+}
+#adduserform {
+
+	position: absolute;
+
+	left: 300px;
+
+}
+
+#deleteuserform {
+
+	position: absolute;
+
+	left: 300px;
+
+}
+#tableusers {
+
+	position: absolute;
+
+	left: 300px;
+
+}
+#deletemessageform {
+
+	position: absolute;
+	width: 80%
+	left: 300px;
+
+}

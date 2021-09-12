@@ -1,0 +1,93 @@
+body {
+	background-image: url(background.svg);
+}
+#seconnecter {
+	color: black;
+	font-family: cursive;
+}
+#loginform {
+	text-align: center;
+}
+.inputs {
+	border-color: #2f3136;
+	border-style: solid;
+
+	border-radius: 5px;
+	background-color: #2f3136;
+
+	width: 300px;
+	height: 30px;
+
+	margin: auto;
+
+	color: white;
+
+}
+#submit {
+	background-color: #2f3136;
+
+	width: 100px;
+	height: 30px;
+
+	border-radius: 5px;
+
+	color: white;
+}
+.logmenu {
+	background-color: #2f3136;
+	width: 150px;
+	height: auto;
+	position:absolute;
+	top: 0;
+	right: 0;
+	border-radius: 0px 0px 0px 15px;
+}
+#Menu{
+	list-style-type: none;
+	display: inline;
+	padding: 0;
+ 	width: 100%;
+}
+.menuli {
+	margin-right: 10px;
+	margin-left: 10px;
+	list-style-type: none;
+	color: #829297;
+	font-family: Futura, Tahoma, sans-serif;
+	padding: 5px;
+	border-radius: 7px 7px;
+	background-color: #2f3136;
+	line-height: 1.5;
+	left: 0px;
+	-webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}
+.menulink {
+  outline: none;
+  text-decoration: none;
+  display: inline;
+  line-height: 1.5;
+  color: #8e9297;
+  width: 100%;
+  margin-right: 0.625%;
+}
+.menuli:hover {
+	list-style-type: none;
+	color: #ffffff;
+	background-color: #393c43;
+}
+
+#loggedas {
+	margin-right: 10px;
+	margin-left: 10px;
+	list-style-type: none;
+	color: #829297;
+	font-family: Futura, Tahoma, sans-serif;
+	padding: 5px;
+	border-radius: 7px 7px;
+	background-color: #2f3136;
+	line-height: 1.5;
+	left: 0px;
+	-webkit-transition: color 0.5s;
+    transition: color 0.5s;
+}

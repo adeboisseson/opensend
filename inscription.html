@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang=fr>
+    <head>
+        <title>
+            Inscription
+        </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link type="text/css" rel="stylesheet" href="stylelogin.css">
+        <style type="text/css">
+            body {
+                background-image: url(https://duckduckgo.com/assets/spread/background.svg) ;
+                background-repeat: no-repeat;
+                background-size: 100% auto;
+                background-color: #230545;
+            }
+        </style>
+    </head>
+    <body>
+            <div class=logmenu>
+
+            <br>
+
+            <ul id=Menu>
+                <li class="menuli"><a href="login.html" class="menulink">Connexion</a></li>
+
+                <li class="menuli"><a href="inscription.html" class="menulink">Inscription</a></li>
+
+                
+
+            </ul>
+
+        </div>
+            <form id=loginform action="inscription.php" method="POST">
+                <h1 id="seconnecter">OpenChat</h1>
+                <input type="text" name="name" id="nameinput" class="inputs" placeholder="Nom complet"><br><br>
+                <input type="text" name="pseudo" id="pseudoinput" class="inputs" placeholder="Pseudo"><br><br>
+                <input type="email" name="email" id="emailinput" class="inputs" placeholder="E-mail"><br><br>
+                <input type="password" name="password" id="passwordinput" class="inputs" placeholder="Mot de passe"><br><br>
+                <input type="password" name="password2" id="passwordinput" class="inputs" placeholder="Veuillez re-saisir le mot de passe"><br><br>
+
+                <input type="submit" name="submit" id="submit" value="S'inscrire">
+            </form>
+            
+    </body>
+</html>
